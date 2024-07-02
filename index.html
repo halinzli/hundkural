@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=900 height=540 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=532 height=300 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/webglderleme.loader.js";
+      var loaderUrl = buildUrl + "/Oribatal.loader.js";
       var config = {
-        dataUrl: buildUrl + "/webglderleme.data",
-        frameworkUrl: buildUrl + "/webglderleme.framework.js",
-        codeUrl: buildUrl + "/webglderleme.wasm",
+        dataUrl: buildUrl + "/Oribatal.data",
+        frameworkUrl: buildUrl + "/Oribatal.framework.js",
+        codeUrl: buildUrl + "/Oribatal.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "01_Sim_Orbital_",
@@ -94,8 +94,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "900px";
-        canvas.style.height = "540px";
+        canvas.style.width = "532px";
+        canvas.style.height = "300px";
       }
 
       loadingBar.style.display = "block";
